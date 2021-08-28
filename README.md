@@ -24,7 +24,7 @@ The Index file also helps organize the page into a user friendly format.
 ### The app.js File
 This file established the code to create and filter the table in the html web application.  Below is a visual of the filters and the table
 
-![filters_and_table](images/filters_and_table.png)
+![filters_and_table](static/images/filters_and_table.png)
 
 When a user enters data into one of the boxes the table will filter based on that entry.  This is a result of code that identifies the changed element
 
@@ -41,5 +41,5 @@ When a user enters data into one of the boxes the table will filter based on tha
 ## Summary
 In summary this is a useful tool to review the UFOs sitings data, however, it could use some improvements.  The free form fields could be prone to errors.  I would recommend  adding code to provide drop downs with the options to choose from and correct formatting.  For example, California is in the data, however, if you enter "CA" instead of "ca" the table will filter to no data (see below image).  Another useful addtition to the code would be a button to clear all entries and return to the original table.
 
-![incorrect_entry](images/incorrect_entry.png)
+![incorrect_entry](static/images/incorrect_entry.png)
 
